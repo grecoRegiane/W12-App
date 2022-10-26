@@ -1,0 +1,52 @@
+body{
+  font-family: 'Aroboto light', sans-serif;
+}
+
+form, .titleDiv{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width:  40%;
+}
+
+#title {
+  font-size: 72px;
+}
+
+form{
+  font-size: 16px;
+
+}
+
+form input{
+  padding-left: 10px;
+  min-height: 45px;
+  font-size: 17px;
+  border: solid 1px #cccccc;
+
+}
+
+form input[type=submit]{
+  background-color: #43a047;
+  min-height: 45px;
+  width: 20%;
+  margin: auto;
+  margin-top: 26px;
+  cursor: pointer;
+  font-family: 'Aroboto light', sans-serif;
+  font-size: 17px;
+  color: #ffff;
+  border: 0 none;
+  border-radius: 5px;
+  text-align: center; 
+}
+
+form label{
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+form label:not(:first-child){
+padding-top: 26px;
+}
+

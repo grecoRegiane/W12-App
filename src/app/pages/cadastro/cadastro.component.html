@@ -1,0 +1,18 @@
+<body>
+  <div class="container-cadastro">
+    <div class="titleDiv">
+      <p id="title">Cadastro</p>
+    </div>
+    <div>
+      <form>
+        <label for="formNome">NOME:</label>
+        <input type="text" id="formNome" placeholder="Digite seu nome">
+        <label for="formEmail">E-MAIL:</label>
+        <input type="mail" id="formEmail" (change)="ValidateEmail()" placeholder="EX: carlos@uol.com.br">
+        <label for="formSenha">SENHA:</label>
+        <input type="password" id="formSenha" placeholder="Sua senha precisa ter pelo menos 8 caracteres">
+        <input id="input" type="submit" value="SALVAR" (click)="saveData()" [routerLink]="['/info']">
+      </form>
+    </div>
+  </div>
+</body>

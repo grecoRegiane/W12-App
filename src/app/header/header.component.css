@@ -1,0 +1,23 @@
+.header{
+  background-color: #5e35b1;
+  min-height: 60px;
+  display: flex;
+}
+
+h3{
+  color: white;
+  font-family: 'Aroboto light', sans-serif;
+}
+
+#w12Logo, #w12Title{
+  margin: auto;
+}
+
+img{
+  max-height: 30px;
+  max-height: 30px;
+}
+
+.header{
+  width: 100%;
+}

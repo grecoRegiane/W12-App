@@ -1,0 +1,41 @@
+form, .titleDiv{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width:  40%;
+}
+
+#title {
+  font-size: 72px;
+  font-family: 'Aroboto light', sans-serif;
+  margin-bottom: 5%;
+}
+
+form label{
+  font-size: 16px;
+  font-family: 'Aroboto light', sans-serif;
+  font-weight: bold;
+}
+
+form input{
+  font-size: 22px;
+  border: none;
+  background-color: white;
+  padding-left: 10px;
+  min-height: 45px;
+  font-weight: bold;
+}
+
+form label:not(:first-child){
+padding-top: 10px;
+}
+
+form label:first-child{
+  padding-top: 26px;
+}
+
+form{
+  border-top-style: solid;
+  border-color: #FAFAFA;
+}
+
